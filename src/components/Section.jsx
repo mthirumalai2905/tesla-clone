@@ -33,6 +33,9 @@ const Wrap = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  @media(max-width: 768px){
+    object-fit: fill;
+  }
 `;
 
 const ItemText = styled.div`
